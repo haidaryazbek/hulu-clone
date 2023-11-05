@@ -1,0 +1,109 @@
+.hulu{
+    height: 100%;
+    margin-left: 10px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 7%;
+    padding-left: 25px;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.section1{
+
+    background-image: url("/assets/main.jpeg");
+    height: 110vh;
+    width: 100vw;
+    border-radius: 10px;
+}
+.menu-icon {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(50, 50, 62);
+    padding: 15px 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+  .login{
+    padding: 5px;
+    margin-right: 68px;
+    color: #a8afbd;
+    background-color: unset;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 1.4px;
+    background-color: white; /* Color of the bars */
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+  }
+  .bundles{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        height: 38%;
+        
+  }
+  .title{
+    color: #00ED82;
+    font-family: sans-serif;
+    margin-bottom: 10px ;
+  }
+  .bundle{
+    flex-grow: 1;
+    max-width: 320px;
+    text-align: center;
+    height:100%
+  }
+.price{
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.img{
+    height: 20%;
+    margin: 20px 0px;
+}
+.button{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #00ED82;
+}
+.links{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+.link1{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.link2{
+    margin-top: 30px;
+    font-size: 18px;
+}
